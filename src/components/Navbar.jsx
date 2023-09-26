@@ -64,7 +64,7 @@ const Navbar = () => {
             </div>
           </div>
 
-          <div className="flex justify-end -mt-5" onClick={toggleNavbar}>
+          <div className="flex justify-end -mt-5 lg:hidden" onClick={toggleNavbar}>
             {isClick ? (
               <AiOutlineClose size={20} />
             ) : (
