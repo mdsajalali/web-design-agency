@@ -11,7 +11,6 @@ const Navbar = () => {
     setIsClick(!isClick);
   };
   return (
-    <div className="bg-[#D7F5DC] ">
       <div className="max-w-[1440px] mx-auto p-4 px-5 md:px-20">
         <nav className="lg:flex items-center justify-between ">
           <div className="w-44">
@@ -115,7 +114,6 @@ const Navbar = () => {
           )}
         </nav>
       </div>
-    </div>
   );
 };
 
