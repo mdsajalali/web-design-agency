@@ -73,6 +73,61 @@ const WorkList = () => {
             </button>
           </div>
         </div>
+
+        <div className="grid gird-col-1 md:grid-cols-2 lg:grid-cols-4 my-20 gap-10 ">
+          <div className="shadow-md  flex flex-col items-center justify-center p-10 rounded-lg ">
+            <div className="bg-[#D7F5DC] w-16 h-14 rounded-md flex items-center justify-center">
+              <Image
+                className="w-fit"
+                src="/images/Heart.png"
+                width={100}
+                height={100}
+                alt="Picture of the author"
+              />
+            </div>
+            <h2 className="font-bold my-2 text-2xl">25000</h2>
+            <p className="font-medium">Projects</p>
+          </div>
+          <div className="shadow-md  flex flex-col items-center justify-center p-10 rounded-lg">
+            <div className="bg-[#D7F5DC] w-16 h-14 rounded-md flex items-center justify-center">
+              <Image
+                className="w-fit"
+                src="/images/Heart.png"
+                width={100}
+                height={100}
+                alt="Picture of the author"
+              />
+            </div>
+            <h2 className="font-bold my-2 text-2xl">25000</h2>
+            <p className="font-medium">Projects</p>
+          </div>{" "}
+          <div className="shadow-md  flex flex-col items-center justify-center p-10 rounded-lg">
+            <div className="bg-[#D7F5DC] w-16 h-14 rounded-md flex items-center justify-center">
+              <Image
+                className="w-fit"
+                src="/images/Heart.png"
+                width={100}
+                height={100}
+                alt="Picture of the author"
+              />
+            </div>
+            <h2 className="font-bold my-2 text-2xl">25000</h2>
+            <p className="font-medium">Projects</p>
+          </div>{" "}
+          <div className="shadow-md  flex flex-col items-center justify-center p-10 rounded-lg">
+            <div className="bg-[#D7F5DC] w-16 h-14 rounded-md flex items-center justify-center">
+              <Image
+                className="w-fit"
+                src="/images/Heart.png"
+                width={100}
+                height={100}
+                alt="Picture of the author"
+              />
+            </div>
+            <h2 className="font-bold my-2 text-2xl">25000</h2>
+            <p className="font-medium">Projects</p>
+          </div>
+        </div>
       </div>
     </div>
   );
