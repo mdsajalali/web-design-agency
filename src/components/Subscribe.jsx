@@ -1,6 +1,6 @@
 const Subscribe = () => {
   return (
-    <div className="min-h-[40vh] flex flex-col items-center justify-center ">
+    <div className="min-h-[50vh] md:min-h-[40vh] flex flex-col items-center justify-center ">
       <div className="text-center">
         <h1 className="text-[#20B15A] font-semibold">SUBSCRIBE</h1>
         <h2 className="my-3 font-bold text-2xl capitalize">

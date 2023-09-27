@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div className="bg-[#000] text-white min-h-[40vh]">
       <div className="max-w-[1440px] mx-auto p-4 px-5 md:px-20">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-items-center mt-10 gap-5">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:place-items-center mt-10 gap-5">
           <div>
             <Image
               className="my-5"
@@ -54,7 +54,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="list-none ">
-            <h2 className="font-bold text-2xl mt-10">Quick Links</h2>
+            <h2 className="font-bold text-2xl md:mt-10">Quick Links</h2>
             <li className="mt-5">
               <Link href="/" className="hover:underline">
                 Services
@@ -76,7 +76,7 @@ const Footer = () => {
               </Link>
             </li>
           </div>
-          <div className="list-none -mt-10">
+          <div className="list-none md-mt-10">
             <h2 className="mb-5 font-bold text-2xl">Address</h2>
             <li>Design Agency Head Office.</li>
             <li>Airport Road</li>
