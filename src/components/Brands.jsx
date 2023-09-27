@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Brands = () => {
   return (
-    <div className="bg-white">
+    <div className="bg-white ">
       <div className="max-w-[1440px] mx-auto p-4 px-5 md:px-20 ">
         <div className="grid place-items-center grid-cols-3 md:grid-cols-5 gap-5 m-5 ">
           <Image
