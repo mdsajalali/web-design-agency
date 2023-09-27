@@ -27,7 +27,7 @@ const FeaturedProject = () => {
               <h1 className="font-bold text-[20px]">App Redesign</h1>
             </div>
             <div>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-5 ">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mt-5 ">
                 <div className="max-w-[300px]">
                   <Image
                     className="w-fit"
@@ -39,7 +39,7 @@ const FeaturedProject = () => {
                   <p className="text-[#2E3E5C] my-2">
                     App Design - June 20, 2022
                   </p>
-                  <h1 className="font-bold text-[18px] mb-10">
+                  <h1 className="font-bold text-[18px] mb-5">
                     Redesign channel website landing page
                   </h1>
                 </div>
