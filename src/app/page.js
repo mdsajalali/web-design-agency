@@ -1,4 +1,5 @@
 import Brands from "@/components/Brands";
+import FeaturedProject from "@/components/FeaturedProject";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 import WorkList from "@/components/WorkList";
@@ -12,6 +13,7 @@ const page = () => {
         <Brands />
       </div>
       <WorkList />
+      <FeaturedProject />
     </div>
   );
 };
