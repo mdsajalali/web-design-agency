@@ -3,7 +3,7 @@ const Subscribe = () => {
     <div className="min-h-[40vh] flex flex-col items-center justify-center ">
       <div className="text-center">
         <h1 className="text-[#20B15A] font-semibold">SUBSCRIBE</h1>
-        <h2 className="my-3 font-bold text-2xl">
+        <h2 className="my-3 font-bold text-2xl capitalize">
           Subscribe to get the latest <br /> news about us
         </h2>
         <p className="text-[#8B8B8B] mb-5 text-[14px]">
