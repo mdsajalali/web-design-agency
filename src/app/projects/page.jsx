@@ -1,3 +1,4 @@
+import AllProjects from '@/components/AllProjects'
 import CommonHero from '@/components/CommonHero'
 import Footer from '@/components/Footer'
 import Navbar from '@/components/Navbar'
@@ -11,6 +12,7 @@ const page = () => {
         <Navbar />
         <CommonHero heading="Projects" nav="Home" currentNav="Projects" />
       </div>
+      <AllProjects />
       <Subscribe />
       <Footer />
     </div>
