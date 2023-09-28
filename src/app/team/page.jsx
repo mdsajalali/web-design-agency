@@ -3,6 +3,7 @@ import Navbar from '@/components/Navbar'
 import Subscribe from '@/components/Subscribe'
 import React from 'react'
 import CommonHero from '@/components/CommonHero'
+import TeamMember from '@/components/TeamMember'
 
 const page = () => {
   return (
@@ -11,6 +12,7 @@ const page = () => {
         <Navbar />
         <CommonHero heading="Team" nav="Home" currentNav="Team" />
       </div>
+      <TeamMember />
       <Subscribe />
       <Footer />
     </div>
