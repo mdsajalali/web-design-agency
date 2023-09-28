@@ -1,18 +1,19 @@
-import Footer from '@/components/Footer'
-import Navbar from '@/components/Navbar'
-import Subscribe from '@/components/Subscribe'
-import React from 'react'
+import CommonHero from "@/components/CommonHero";
+import Footer from "@/components/Footer";
+import Navbar from "@/components/Navbar";
+import Subscribe from "@/components/Subscribe";
 
 const page = () => {
   return (
     <div>
-      <div className="bg-[#D7F5DC] ">
+      <div className="bg-[#F8F9FC] ">
         <Navbar />
+        <CommonHero heading="Service" nav="Home" currentNav="Service" />
       </div>
       <Subscribe />
       <Footer />
     </div>
   );
-}
+};
 
-export default page
+export default page;
