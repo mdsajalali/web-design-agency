@@ -28,7 +28,7 @@ const WorkList = () => {
             <p className="my-3">
               We help identify the best ways to improve your business
             </p>
-            <button className="flex items-center gap-2 my-10 ml-5">
+            <button className="flex items-center gap-2 my-10 ml-5 hover:translate-x-1 transition-all">
               Learn More <BsArrowRight />
             </button>
           </div>
@@ -48,11 +48,11 @@ const WorkList = () => {
             <p className="my-3">
               We help identify the best ways to improve your business
             </p>
-            <button className="flex items-center gap-2 my-10 ml-5">
+            <button className="flex items-center gap-2 my-10 ml-5 hover:translate-x-1 transition-all">
               Learn More <BsArrowRight />
             </button>
           </div>
-          
+
           <div className="max-w-[300px]">
             <div className="bg-[#D7F5DC] w-16 h-14 rounded-md flex items-center justify-center">
               <Image
@@ -69,7 +69,7 @@ const WorkList = () => {
             <p className="my-3">
               We help identify the best ways to improve your business
             </p>
-            <button className="flex items-center gap-2 my-10 ml-5">
+            <button className="flex items-center gap-2 my-10 ml-5 hover:translate-x-1 transition-all">
               Learn More <BsArrowRight />
             </button>
           </div>
@@ -102,7 +102,7 @@ const WorkList = () => {
             <h2 className="font-bold my-2 text-2xl">25000</h2>
             <p className="font-medium">Projects</p>
           </div>
-          
+
           <div className="shadow-md  flex flex-col items-center justify-center p-10 rounded-lg">
             <div className="bg-[#D7F5DC] w-16 h-14 rounded-md flex items-center justify-center">
               <Image
@@ -116,7 +116,7 @@ const WorkList = () => {
             <h2 className="font-bold my-2 text-2xl">25000</h2>
             <p className="font-medium">Projects</p>
           </div>
-          
+
           <div className="shadow-md  flex flex-col items-center justify-center p-10 rounded-lg">
             <div className="bg-[#D7F5DC] w-16 h-14 rounded-md flex items-center justify-center">
               <Image
