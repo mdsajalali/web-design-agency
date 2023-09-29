@@ -21,17 +21,17 @@ const AllServices = () => {
             Increase your teams productivity and save time with a bot that
             answers and fields customer inquiries
           </div>
-          <div className="grid grid-cols-3 gap-4  ">
-            <div className="w-full h-[240px] col-span-2">
+          <div className="grid grid-cols-6 gap-4  ">
+            <div className="w-full h-[240px] col-span-4">
               <Image
                 src="/images/service-1.jpeg"
                 alt="image"
                 height={500}
                 width={500}
-                className="  h-full  rounded-lg "
+                className="  h-full  rounded-lg  "
               />
             </div>
-            <div className="w-full h-[240px]">
+            <div className="w-full h-[240px] col-span-2">
               <Image
                 src="/images/service-1.jpeg"
                 alt="image"
@@ -40,7 +40,7 @@ const AllServices = () => {
                 className=" h-full rounded-lg"
               />
             </div>
-            <div className="w-full h-[240px] col-auto">
+            <div className="w-full h-[240px] col-span-3">
               <Image
                 src="/images/service-1.jpeg"
                 alt="image"
@@ -49,7 +49,7 @@ const AllServices = () => {
                 className="  h-full  rounded-lg "
               />
             </div>
-            <div className="w-full h-[240px] col-auto">
+            <div className="w-full h-[240px] col-span-3">
               <Image
                 src="/images/service-1.jpeg"
                 alt="image"
@@ -69,17 +69,17 @@ const AllServices = () => {
             Increase your teams productivity and save time with a bot that
             answers and fields customer inquiries
           </div>
-          <div className="grid grid-cols-3 gap-4  ">
-            <div className="w-full h-[240px] col-span-2">
+          <div className="grid grid-cols-6 gap-4  ">
+            <div className="w-full h-[240px] col-span-4">
               <Image
                 src="/images/service-1.jpeg"
                 alt="image"
                 height={500}
                 width={500}
-                className="  h-full  rounded-lg "
+                className="  h-full  rounded-lg  "
               />
             </div>
-            <div className="w-full h-[240px]">
+            <div className="w-full h-[240px] col-span-2">
               <Image
                 src="/images/service-1.jpeg"
                 alt="image"
@@ -88,7 +88,7 @@ const AllServices = () => {
                 className=" h-full rounded-lg"
               />
             </div>
-            <div className="w-full h-[240px] col-auto">
+            <div className="w-full h-[240px] col-span-3">
               <Image
                 src="/images/service-1.jpeg"
                 alt="image"
@@ -97,7 +97,7 @@ const AllServices = () => {
                 className="  h-full  rounded-lg "
               />
             </div>
-            <div className="w-full h-[240px] col-auto">
+            <div className="w-full h-[240px] col-span-3">
               <Image
                 src="/images/service-1.jpeg"
                 alt="image"
@@ -117,17 +117,17 @@ const AllServices = () => {
             Increase your teams productivity and save time with a bot that
             answers and fields customer inquiries
           </div>
-          <div className="grid grid-cols-3 gap-4  ">
-            <div className="w-full h-[240px] col-span-2">
+          <div className="grid grid-cols-6 gap-4  ">
+            <div className="w-full h-[240px] col-span-4">
               <Image
                 src="/images/service-1.jpeg"
                 alt="image"
                 height={500}
                 width={500}
-                className="  h-full  rounded-lg "
+                className="  h-full  rounded-lg  "
               />
             </div>
-            <div className="w-full h-[240px]">
+            <div className="w-full h-[240px] col-span-2">
               <Image
                 src="/images/service-1.jpeg"
                 alt="image"
@@ -136,7 +136,7 @@ const AllServices = () => {
                 className=" h-full rounded-lg"
               />
             </div>
-            <div className="w-full h-[240px] col-auto">
+            <div className="w-full h-[240px] col-span-3">
               <Image
                 src="/images/service-1.jpeg"
                 alt="image"
@@ -145,7 +145,7 @@ const AllServices = () => {
                 className="  h-full  rounded-lg "
               />
             </div>
-            <div className="w-full h-[240px] col-auto">
+            <div className="w-full h-[240px] col-span-3">
               <Image
                 src="/images/service-1.jpeg"
                 alt="image"
@@ -165,17 +165,17 @@ const AllServices = () => {
             Increase your teams productivity and save time with a bot that
             answers and fields customer inquiries
           </div>
-          <div className="grid grid-cols-3 gap-4  ">
-            <div className="w-full h-[240px] col-span-2">
+          <div className="grid grid-cols-6 gap-4  ">
+            <div className="w-full h-[240px] col-span-4">
               <Image
                 src="/images/service-1.jpeg"
                 alt="image"
                 height={500}
                 width={500}
-                className="  h-full  rounded-lg "
+                className="  h-full  rounded-lg  "
               />
             </div>
-            <div className="w-full h-[240px]">
+            <div className="w-full h-[240px] col-span-2">
               <Image
                 src="/images/service-1.jpeg"
                 alt="image"
@@ -184,7 +184,7 @@ const AllServices = () => {
                 className=" h-full rounded-lg"
               />
             </div>
-            <div className="w-full h-[240px] col-auto">
+            <div className="w-full h-[240px] col-span-3">
               <Image
                 src="/images/service-1.jpeg"
                 alt="image"
@@ -193,7 +193,7 @@ const AllServices = () => {
                 className="  h-full  rounded-lg "
               />
             </div>
-            <div className="w-full h-[240px] col-auto">
+            <div className="w-full h-[240px] col-span-3">
               <Image
                 src="/images/service-1.jpeg"
                 alt="image"
