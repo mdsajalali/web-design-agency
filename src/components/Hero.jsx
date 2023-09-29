@@ -13,7 +13,7 @@ const Hero = () => {
             We help businesses like yours earn more customers, <br /> standout
             from competitors, make more money
           </p>
-          <div className="bg-[#20B15A] hover:bg-[#F46C2C] hover:-translate-y-1 inline-block text-white px-4 py-3 rounded-lg cursor-pointer transition ease-linear delay-150">
+          <div className="bg-[#20B15A] hover:bg-[#F46C2C] hover:-translate-y-1 inline-block text-white px-4 py-3 rounded-lg cursor-pointer hover:translate-x-1 transition-all">
             <Link href="/">Get Started</Link>
           </div>
         </div>
