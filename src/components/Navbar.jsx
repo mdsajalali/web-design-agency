@@ -13,8 +13,8 @@ const Navbar = () => {
     setIsClick(!isClick);
   };
   return (
-    <div className="max-w-[1440px] mx-auto p-4 px-5 md:px-20">
-      <nav className="lg:flex items-center justify-between ">
+    <div className="max-w-[1440px] mx-auto p-4 px-5 md:px-20 fixed left-0 right-0 bg-[#D7F5DC]  z-[1000] ">
+      <nav className="lg:flex items-center justify-between">
         <div className="w-44">
           <Link href="/">
             <Image
@@ -25,7 +25,7 @@ const Navbar = () => {
             />
           </Link>
         </div>
-        <div className="lg:flex flex items-center justify-center gap-5 text-[15px] font-medium hidden lg:block">
+        <div className="flex lg:flex  items-center justify-center gap-5 text-[15px] font-medium hidden lg:block">
           <Link
             href="/"
             className={
@@ -36,7 +36,6 @@ const Navbar = () => {
           >
             Home
           </Link>
-          
 
           <Link
             href="/team"
@@ -48,10 +47,9 @@ const Navbar = () => {
           >
             Team
           </Link>
-           
+
           <Link
             href="/services"
-           
             className={
               currentRoute === "/services"
                 ? "text-[#20B15A]"
@@ -62,7 +60,6 @@ const Navbar = () => {
           </Link>
           <Link
             href="/projects"
-           
             className={
               currentRoute === "/projects"
                 ? "text-[#20B15A]"
@@ -73,7 +70,6 @@ const Navbar = () => {
           </Link>
           <Link
             href="/testimonials"
-           
             className={
               currentRoute === "/testimonials"
                 ? "text-[#20B15A]"
@@ -99,33 +95,33 @@ const Navbar = () => {
         </div>
 
         {isClick && (
-          <div className="flex flex-col items-center justify-center gap-6 text-[15px] font-medium min-h-[91vh] ">
+          <div className="flex flex-col items-center justify-center gap-6 text-[15px] font-medium min-h-[91vh] absolute bg-[#1F2937] text-white  left-0 h-screen w-[70%] mt-4  ">
             <Link
               href="/"
-              className="hover:text-[#20B15A] transition ease-in-out delay-150"
+              className="hover:text-[#20B15A] transition ease-in-out delay-150 -mt-72"
             >
               Home
             </Link>
             <Link
-              href="/"
+              href="/team"
               className="hover:text-[#20B15A] transition ease-in-out delay-150"
             >
               Team
             </Link>
             <Link
-              href="/"
+              href="/services"
               className="hover:text-[#20B15A] transition ease-in-out delay-150"
             >
               Services
             </Link>
             <Link
-              href="/"
+              href="/projects"
               className="hover:text-[#20B15A] transition ease-in-out delay-150"
             >
               Projects
             </Link>
             <Link
-              href="/"
+              href="/testimonials"
               className="hover:text-[#20B15A] transition ease-in-out delay-150"
             >
               Testimonials
