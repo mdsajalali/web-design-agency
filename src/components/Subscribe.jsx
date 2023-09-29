@@ -15,7 +15,7 @@ const Subscribe = () => {
             type="text"
             placeholder="Enter Your Email Address"
           />
-          <button className="bg-[#F55F1D] px-5 py-2 rounded-lg text-white absolute  right-2  top-16 md:top-1 mr-7 md:mr-0">
+          <button className="bg-[#F55F1D] hover:bg-[#20B15A] px-5 py-2 rounded-lg text-white absolute  right-2  top-16 md:top-1 mr-7 md:mr-0 transition ease-linear delay-150">
             Subscribe
           </button>
         </div>
