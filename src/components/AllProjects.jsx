@@ -13,7 +13,7 @@ const AllProjects = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 place-items-center mt-10">
         <div className="shadow-lg p-5 rounded-lg">
           <Image
-            src="/images/project1.png"
+            src="/images/project-1.png"
             width={300}
             height={300}
             alt="Picture of the author"
@@ -27,7 +27,7 @@ const AllProjects = () => {
         </div>
         <div className="shadow-lg p-5 rounded-lg">
           <Image
-            src="/images/project2.png"
+            src="/images/project-2.png"
             width={300}
             height={300}
             alt="Picture of the author"
@@ -40,7 +40,7 @@ const AllProjects = () => {
           </h1>
         </div> <div className="shadow-lg p-5 rounded-lg">
           <Image
-            src="/images/project3.png"
+            src="/images/project-3.png"
             width={300}
             height={300}
             alt="Picture of the author"
@@ -53,7 +53,7 @@ const AllProjects = () => {
           </h1>
         </div> <div className="shadow-lg p-5 rounded-lg">
           <Image
-            src="/images/project4.png"
+            src="/images/project-4.png"
             width={300}
             height={300}
             alt="Picture of the author"
@@ -66,7 +66,7 @@ const AllProjects = () => {
           </h1>
         </div> <div className="shadow-lg p-5 rounded-lg">
           <Image
-            src="/images/project5.png"
+            src="/images/project-5.png"
             width={300}
             height={300}
             alt="Picture of the author"
@@ -79,7 +79,7 @@ const AllProjects = () => {
           </h1>
         </div> <div className="shadow-lg p-5 rounded-lg">
           <Image
-            src="/images/project6.png"
+            src="/images/project-6.png"
             width={300}
             height={300}
             alt="Picture of the author"

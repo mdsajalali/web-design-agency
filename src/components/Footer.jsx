@@ -21,7 +21,7 @@ const Footer = () => {
             <div className="flex gap-5 mt-3 mb-10">
               <Link href="/">
                 <Image
-                  src="/images/facebook.png"
+                  src="/images/f-facebook.png"
                   width={30}
                   height={30}
                   alt="Picture of the author"
@@ -29,7 +29,7 @@ const Footer = () => {
               </Link>
               <Link href="/">
                 <Image
-                  src="/images/facebook.png"
+                  src="/images/f-instagram.png"
                   width={30}
                   height={30}
                   alt="Picture of the author"
@@ -37,7 +37,7 @@ const Footer = () => {
               </Link>
               <Link href="/">
                 <Image
-                  src="/images/facebook.png"
+                  src="/images/f-twitter.png"
                   width={30}
                   height={30}
                   alt="Picture of the author"
@@ -45,7 +45,7 @@ const Footer = () => {
               </Link>
               <Link href="/">
                 <Image
-                  src="/images/facebook.png"
+                  src="/images/f-linkedin.png"
                   width={30}
                   height={30}
                   alt="Picture of the author"

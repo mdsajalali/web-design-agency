@@ -10,9 +10,9 @@ const CommonHero = ({ heading, nav, currentNav }) => {
         <span>
           <TbMathGreater />
         </span>
-        <Link className="text-[#20B15A]" href="/">
+        <span className="text-[#20B15A]" >
           {currentNav}
-        </Link>
+        </span>
       </div>
     </div>
   );

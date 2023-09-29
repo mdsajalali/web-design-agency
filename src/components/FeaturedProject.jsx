@@ -18,7 +18,7 @@ const FeaturedProject = () => {
             <div>
               <Image
                 className="w-fit"
-                src="/images/Mask.png"
+                src="/images/mask.png"
                 width={400}
                 height={400}
                 alt="Picture of the author"
@@ -31,7 +31,7 @@ const FeaturedProject = () => {
                 <div className="max-w-[300px]">
                   <Image
                     className="w-fit"
-                    src="/images/Mask-1.png"
+                    src="/images/mask-1.png"
                     width={300}
                     height={200}
                     alt="Picture of the author"
@@ -46,7 +46,7 @@ const FeaturedProject = () => {
                 <div className="max-w-[300px]">
                   <Image
                     className="w-fit"
-                    src="/images/Mask-2.png"
+                    src="/images/mask-2.png"
                     width={300}
                     height={200}
                     alt="Picture of the author"
@@ -62,7 +62,7 @@ const FeaturedProject = () => {
                 <div className="max-w-[300px]">
                   <Image
                     className="w-fit"
-                    src="/images/Mask-3.png"
+                    src="/images/mask-3.png"
                     width={300}
                     height={200}
                     alt="Picture of the author"
@@ -77,7 +77,7 @@ const FeaturedProject = () => {
                 <div className="max-w-[300px]">
                   <Image
                     className="w-fit"
-                    src="/images/Mask-4.png"
+                    src="/images/mask-4.png"
                     width={300}
                     height={200}
                     alt="Picture of the author"

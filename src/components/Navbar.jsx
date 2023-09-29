@@ -1,4 +1,5 @@
 "use client";
+import { usePathname } from "next/navigation";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 
 import Image from "next/image";
@@ -7,6 +8,7 @@ import { useState } from "react";
 
 const Navbar = () => {
   const [isClick, setIsClick] = useState(false);
+  const currentRoute = usePathname();
   const toggleNavbar = () => {
     setIsClick(!isClick);
   };
@@ -16,7 +18,7 @@ const Navbar = () => {
         <div className="w-44">
           <Link href="/">
             <Image
-              src="/images/DesignAGENCY.png"
+              src="/images/agency-logo.png"
               width={500}
               height={500}
               alt="Picture of the author"
@@ -26,31 +28,57 @@ const Navbar = () => {
         <div className="lg:flex flex items-center justify-center gap-5 text-[15px] font-medium hidden lg:block">
           <Link
             href="/"
-            className="hover:text-[#20B15A] transition ease-in-out delay-150"
+            className={
+              currentRoute === "/"
+                ? "text-[#20B15A]"
+                : "hover:text-[#20B15A] transition ease-in-out delay-150"
+            }
           >
             Home
           </Link>
+          
+
           <Link
             href="/team"
-            className="hover:text-[#20B15A] transition ease-in-out delay-150"
+            className={
+              currentRoute === "/team"
+                ? "text-[#20B15A]"
+                : "hover:text-[#20B15A] transition ease-in-out delay-150"
+            }
           >
             Team
           </Link>
+           
           <Link
-            href="/service"
-            className="hover:text-[#20B15A] transition ease-in-out delay-150"
+            href="/services"
+           
+            className={
+              currentRoute === "/services"
+                ? "text-[#20B15A]"
+                : "hover:text-[#20B15A] transition ease-in-out delay-150"
+            }
           >
-            Service
+            Services
           </Link>
           <Link
             href="/projects"
-            className="hover:text-[#20B15A] transition ease-in-out delay-150"
+           
+            className={
+              currentRoute === "/projects"
+                ? "text-[#20B15A]"
+                : "hover:text-[#20B15A] transition ease-in-out delay-150"
+            }
           >
             Projects
           </Link>
           <Link
             href="/testimonials"
-            className="hover:text-[#20B15A] transition ease-in-out delay-150"
+           
+            className={
+              currentRoute === "/testimonials"
+                ? "text-[#20B15A]"
+                : "hover:text-[#20B15A] transition ease-in-out delay-150"
+            }
           >
             Testimonials
           </Link>
@@ -88,7 +116,7 @@ const Navbar = () => {
               href="/"
               className="hover:text-[#20B15A] transition ease-in-out delay-150"
             >
-              Service
+              Services
             </Link>
             <Link
               href="/"

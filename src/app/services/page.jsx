@@ -9,7 +9,7 @@ const page = () => {
     <div>
       <div className="bg-[#F8F9FC] ">
         <Navbar />
-        <CommonHero heading="Service" nav="Home" currentNav="Service" />
+        <CommonHero heading="Services" nav="Home" currentNav="Services" />
       </div>
       <AllServices />
       <Subscribe />

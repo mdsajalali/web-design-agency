@@ -16,7 +16,7 @@ const WorkList = () => {
             <div className="bg-[#D7F5DC] w-16 h-14 rounded-md flex items-center justify-center">
               <Image
                 className="w-fit"
-                src="/images/Heart.png"
+                src="/images/heart.png"
                 width={100}
                 height={100}
                 alt="Picture of the author"
@@ -36,7 +36,7 @@ const WorkList = () => {
             <div className="bg-[#D7F5DC] w-16 h-14 rounded-md flex items-center justify-center">
               <Image
                 className="w-fit"
-                src="/images/Heart.png"
+                src="/images/heart.png"
                 width={100}
                 height={100}
                 alt="Picture of the author"
@@ -56,7 +56,7 @@ const WorkList = () => {
             <div className="bg-[#D7F5DC] w-16 h-14 rounded-md flex items-center justify-center">
               <Image
                 className="w-fit"
-                src="/images/Heart.png"
+                src="/images/heart.png"
                 width={100}
                 height={100}
                 alt="Picture of the author"
@@ -79,7 +79,7 @@ const WorkList = () => {
             <div className="bg-[#D7F5DC] w-16 h-14 rounded-md flex items-center justify-center">
               <Image
                 className="w-fit"
-                src="/images/Heart.png"
+                src="/images/heart.png"
                 width={100}
                 height={100}
                 alt="Picture of the author"
@@ -92,7 +92,7 @@ const WorkList = () => {
             <div className="bg-[#D7F5DC] w-16 h-14 rounded-md flex items-center justify-center">
               <Image
                 className="w-fit"
-                src="/images/Heart.png"
+                src="/images/heart.png"
                 width={100}
                 height={100}
                 alt="Picture of the author"
@@ -105,7 +105,7 @@ const WorkList = () => {
             <div className="bg-[#D7F5DC] w-16 h-14 rounded-md flex items-center justify-center">
               <Image
                 className="w-fit"
-                src="/images/Heart.png"
+                src="/images/heart.png"
                 width={100}
                 height={100}
                 alt="Picture of the author"
@@ -118,7 +118,7 @@ const WorkList = () => {
             <div className="bg-[#D7F5DC] w-16 h-14 rounded-md flex items-center justify-center">
               <Image
                 className="w-fit"
-                src="/images/Heart.png"
+                src="/images/heart.png"
                 width={100}
                 height={100}
                 alt="Picture of the author"

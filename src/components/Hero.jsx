@@ -21,7 +21,7 @@ const Hero = () => {
           <div className="flex f gap-5 mt-10">
             <div>
               <Image
-                src="/images/Rectangle 1241.png"
+                src="/images/rectangle-01.png"
                 width={400}
                 height={400}
                 alt="Picture of the author"
@@ -30,7 +30,7 @@ const Hero = () => {
             <div>
               <Image
                 className="w-full h-[267px]"
-                src="/images/Rectangle 1242.png"
+                src="/images/rectangle-02.png"
                 width={500}
                 height={200}
                 alt="Picture of the author"
@@ -41,7 +41,7 @@ const Hero = () => {
             <div>
               <Image
                 className="w-60 h-[165px]"
-                src="/images/Rectangle 1243.png"
+                src="/images/rectangle-03.png"
                 width={500}
                 height={200}
                 alt="Picture of the author"
@@ -50,7 +50,7 @@ const Hero = () => {
             <div>
               <Image
                 className="w-full"
-                src="/images/Rectangle 1244.png"
+                src="/images/rectangle-04.png"
                 width={400}
                 height={400}
                 alt="Picture of the author"

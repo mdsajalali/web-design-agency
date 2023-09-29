@@ -24,7 +24,7 @@ const AllServices = () => {
           <div className="grid grid-cols-3 gap-4  ">
             <div className="w-full h-[240px] col-span-2">
               <Image
-                src="/images/sercie-img1.jpeg"
+                src="/images/service-1.jpeg"
                 alt="image"
                 height={500}
                 width={500}
@@ -33,7 +33,7 @@ const AllServices = () => {
             </div>
             <div className="w-full h-[240px]">
               <Image
-                src="/images/sercie-img1.jpeg"
+                src="/images/service-1.jpeg"
                 alt="image"
                 height={500}
                 width={500}
@@ -42,7 +42,7 @@ const AllServices = () => {
             </div>
             <div className="w-full h-[240px] col-auto">
               <Image
-                src="/images/sercie-img1.jpeg"
+                src="/images/service-1.jpeg"
                 alt="image"
                 height={500}
                 width={500}
@@ -51,7 +51,7 @@ const AllServices = () => {
             </div>
             <div className="w-full h-[240px] col-auto">
               <Image
-                src="/images/sercie-img1.jpeg"
+                src="/images/service-1.jpeg"
                 alt="image"
                 height={500}
                 width={500}
@@ -72,7 +72,7 @@ const AllServices = () => {
           <div className="grid grid-cols-3 gap-4  ">
             <div className="w-full h-[240px] col-span-2">
               <Image
-                src="/images/sercie-img1.jpeg"
+                src="/images/service-1.jpeg"
                 alt="image"
                 height={500}
                 width={500}
@@ -81,7 +81,7 @@ const AllServices = () => {
             </div>
             <div className="w-full h-[240px]">
               <Image
-                src="/images/sercie-img1.jpeg"
+                src="/images/service-1.jpeg"
                 alt="image"
                 height={500}
                 width={500}
@@ -90,7 +90,7 @@ const AllServices = () => {
             </div>
             <div className="w-full h-[240px] col-auto">
               <Image
-                src="/images/sercie-img1.jpeg"
+                src="/images/service-1.jpeg"
                 alt="image"
                 height={500}
                 width={500}
@@ -99,7 +99,7 @@ const AllServices = () => {
             </div>
             <div className="w-full h-[240px] col-auto">
               <Image
-                src="/images/sercie-img1.jpeg"
+                src="/images/service-1.jpeg"
                 alt="image"
                 height={500}
                 width={500}
@@ -120,7 +120,7 @@ const AllServices = () => {
           <div className="grid grid-cols-3 gap-4  ">
             <div className="w-full h-[240px] col-span-2">
               <Image
-                src="/images/sercie-img1.jpeg"
+                src="/images/service-1.jpeg"
                 alt="image"
                 height={500}
                 width={500}
@@ -129,7 +129,7 @@ const AllServices = () => {
             </div>
             <div className="w-full h-[240px]">
               <Image
-                src="/images/sercie-img1.jpeg"
+                src="/images/service-1.jpeg"
                 alt="image"
                 height={500}
                 width={500}
@@ -138,7 +138,7 @@ const AllServices = () => {
             </div>
             <div className="w-full h-[240px] col-auto">
               <Image
-                src="/images/sercie-img1.jpeg"
+                src="/images/service-1.jpeg"
                 alt="image"
                 height={500}
                 width={500}
@@ -147,7 +147,7 @@ const AllServices = () => {
             </div>
             <div className="w-full h-[240px] col-auto">
               <Image
-                src="/images/sercie-img1.jpeg"
+                src="/images/service-1.jpeg"
                 alt="image"
                 height={500}
                 width={500}
@@ -168,7 +168,7 @@ const AllServices = () => {
           <div className="grid grid-cols-3 gap-4  ">
             <div className="w-full h-[240px] col-span-2">
               <Image
-                src="/images/sercie-img1.jpeg"
+                src="/images/service-1.jpeg"
                 alt="image"
                 height={500}
                 width={500}
@@ -177,7 +177,7 @@ const AllServices = () => {
             </div>
             <div className="w-full h-[240px]">
               <Image
-                src="/images/sercie-img1.jpeg"
+                src="/images/service-1.jpeg"
                 alt="image"
                 height={500}
                 width={500}
@@ -186,7 +186,7 @@ const AllServices = () => {
             </div>
             <div className="w-full h-[240px] col-auto">
               <Image
-                src="/images/sercie-img1.jpeg"
+                src="/images/service-1.jpeg"
                 alt="image"
                 height={500}
                 width={500}
@@ -195,7 +195,7 @@ const AllServices = () => {
             </div>
             <div className="w-full h-[240px] col-auto">
               <Image
-                src="/images/sercie-img1.jpeg"
+                src="/images/service-1.jpeg"
                 alt="image"
                 height={500}
                 width={500}
