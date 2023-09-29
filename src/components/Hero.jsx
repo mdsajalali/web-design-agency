@@ -3,8 +3,8 @@ import Link from "next/link";
 
 const Hero = () => {
   return (
-    <div className="max-w-[1440px]  mx-auto p-4 px-5 md:px-20 ">
-      <div className="flex flex-wrap lg:flex-nowrap items-center justify-between  min-h-[75vh]">
+    <div className="max-w-[1440px]  mx-auto p-4 px-5 md:px-20">
+      <div className="flex flex-wrap lg:flex-nowrap items-center justify-between  min-h-[75vh] mt-20 lg:mt-0">
         <div className="max-w-2xl">
           <h1 className="text-black text-5xl font-bold mb-5">
             Increase Your <br /> Customers Loyalty <br /> and Satisfaction
