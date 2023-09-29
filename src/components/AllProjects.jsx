@@ -10,8 +10,8 @@ const AllProjects = () => {
         </h1>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 place-items-center mt-10">
-        <div className="shadow-lg p-5 rounded-lg">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 place-items-center mt-10 ">
+        <div className="shadow-lg p-5 rounded-lg hover:-translate-y-1 transition ease-linear delay-15">
           <Image
             src="/images/project-1.png"
             width={300}
@@ -25,7 +25,7 @@ const AllProjects = () => {
             Lorem ipsum dolor sit consectutar
           </h1>
         </div>
-        <div className="shadow-lg p-5 rounded-lg">
+        <div className="shadow-lg p-5 rounded-lg hover:translate-y-1 transition ease-linear delay-15">
           <Image
             src="/images/project-2.png"
             width={300}
@@ -38,7 +38,7 @@ const AllProjects = () => {
           >
             Lorem ipsum dolor sit consectutar
           </h1>
-        </div> <div className="shadow-lg p-5 rounded-lg">
+        </div> <div className="shadow-lg p-5 rounded-lg hover:-translate-y-1 transition ease-linear delay-15">
           <Image
             src="/images/project-3.png"
             width={300}
@@ -51,7 +51,7 @@ const AllProjects = () => {
           >
             Lorem ipsum dolor sit consectutar
           </h1>
-        </div> <div className="shadow-lg p-5 rounded-lg">
+        </div> <div className="shadow-lg p-5 rounded-lg hover:-translate-y-1 transition ease-linear delay-15">
           <Image
             src="/images/project-4.png"
             width={300}
@@ -64,7 +64,7 @@ const AllProjects = () => {
           >
             Lorem ipsum dolor sit consectutar
           </h1>
-        </div> <div className="shadow-lg p-5 rounded-lg">
+        </div> <div className="shadow-lg p-5 rounded-lg hover:translate-y-1 transition ease-linear delay-15">
           <Image
             src="/images/project-5.png"
             width={300}
@@ -77,7 +77,7 @@ const AllProjects = () => {
           >
             Lorem ipsum dolor sit consectutar
           </h1>
-        </div> <div className="shadow-lg p-5 rounded-lg">
+        </div> <div className="shadow-lg p-5 rounded-lg hover:translate-y-1 transition ease-linear delay-15">
           <Image
             src="/images/project-6.png"
             width={300}
