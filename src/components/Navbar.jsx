@@ -13,116 +13,69 @@ const Navbar = () => {
     setIsClick(!isClick);
   };
   return (
-    <div className="max-w-[1440px] mx-auto p-4 px-5 md:px-20 fixed left-0 right-0 bg-[#D7F5DC]  z-[1000] ">
-      <nav className="lg:flex items-center justify-between">
-        <div className="w-44">
-          <Link href="/">
-            <Image
-              src="/images/agency-logo.png"
-              width={500}
-              height={500}
-              alt="Picture of the author"
-            />
-          </Link>
-        </div>
-        <div className="flex lg:flex  items-center justify-center gap-5 text-[15px] font-medium hidden lg:block">
-          <Link
-            href="/"
-            className={
-              currentRoute === "/"
-                ? "text-[#20B15A]"
-                : "hover:text-[#20B15A] transition ease-in-out delay-150"
-            }
-          >
-            Home
-          </Link>
-
-          <Link
-            href="/team"
-            className={
-              currentRoute === "/team"
-                ? "text-[#20B15A]"
-                : "hover:text-[#20B15A] transition ease-in-out delay-150"
-            }
-          >
-            Team
-          </Link>
-
-          <Link
-            href="/services"
-            className={
-              currentRoute === "/services"
-                ? "text-[#20B15A]"
-                : "hover:text-[#20B15A] transition ease-in-out delay-150"
-            }
-          >
-            Services
-          </Link>
-          <Link
-            href="/projects"
-            className={
-              currentRoute === "/projects"
-                ? "text-[#20B15A]"
-                : "hover:text-[#20B15A] transition ease-in-out delay-150"
-            }
-          >
-            Projects
-          </Link>
-          <Link
-            href="/testimonials"
-            className={
-              currentRoute === "/testimonials"
-                ? "text-[#20B15A]"
-                : "hover:text-[#20B15A] transition ease-in-out delay-150"
-            }
-          >
-            Testimonials
-          </Link>
-
-          <div className="border border-[#20B15A] px-3 py-2 rounded-lg hover:bg-[#20B15A] hover:text-white transition ease-in-out delay-150 cursor-pointer">
-            <Link href="/">Login</Link>
+    <div className="fixed left-0 right-0 bg-[#D7F5DC]  z-[1000] ">
+      <div className="max-w-[1440px] mx-auto p-4 px-5 md:px-20 ">
+        <nav className="lg:flex items-center justify-between">
+          <div className="w-44">
+            <Link href="/">
+              <Image
+                src="/images/agency-logo.png"
+                width={500}
+                height={500}
+                alt="Picture of the author"
+              />
+            </Link>
           </div>
-          <div className="bg-[#20B15A] text-white px-3 py-2 rounded-lg cursor-pointer">
-            <Link href="/">Register</Link>
-          </div>
-        </div>
-
-        <div
-          className="flex justify-end -mt-5 lg:hidden"
-          onClick={toggleNavbar}
-        >
-          {isClick ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
-        </div>
-
-        {isClick && (
-          <div className="flex flex-col items-center justify-center gap-6 text-[15px] font-medium min-h-[91vh] absolute bg-[#1F2937] text-white  left-0 h-screen w-[70%] mt-4  ">
+          <div className="flex lg:flex  items-center justify-center gap-5 text-[15px] font-medium hidden lg:block">
             <Link
               href="/"
-              className="hover:text-[#20B15A] transition ease-in-out delay-150 -mt-72"
+              className={
+                currentRoute === "/"
+                  ? "text-[#20B15A]"
+                  : "hover:text-[#20B15A] transition ease-in-out delay-150"
+              }
             >
               Home
             </Link>
+
             <Link
               href="/team"
-              className="hover:text-[#20B15A] transition ease-in-out delay-150"
+              className={
+                currentRoute === "/team"
+                  ? "text-[#20B15A]"
+                  : "hover:text-[#20B15A] transition ease-in-out delay-150"
+              }
             >
               Team
             </Link>
+
             <Link
               href="/services"
-              className="hover:text-[#20B15A] transition ease-in-out delay-150"
+              className={
+                currentRoute === "/services"
+                  ? "text-[#20B15A]"
+                  : "hover:text-[#20B15A] transition ease-in-out delay-150"
+              }
             >
               Services
             </Link>
             <Link
               href="/projects"
-              className="hover:text-[#20B15A] transition ease-in-out delay-150"
+              className={
+                currentRoute === "/projects"
+                  ? "text-[#20B15A]"
+                  : "hover:text-[#20B15A] transition ease-in-out delay-150"
+              }
             >
               Projects
             </Link>
             <Link
               href="/testimonials"
-              className="hover:text-[#20B15A] transition ease-in-out delay-150"
+              className={
+                currentRoute === "/testimonials"
+                  ? "text-[#20B15A]"
+                  : "hover:text-[#20B15A] transition ease-in-out delay-150"
+              }
             >
               Testimonials
             </Link>
@@ -134,8 +87,61 @@ const Navbar = () => {
               <Link href="/">Register</Link>
             </div>
           </div>
-        )}
-      </nav>
+
+          <div
+            className="flex justify-end -mt-5 lg:hidden"
+            onClick={toggleNavbar}
+          >
+            {isClick ? (
+              <AiOutlineClose size={20} />
+            ) : (
+              <AiOutlineMenu size={20} />
+            )}
+          </div>
+
+          {isClick && (
+            <div className="flex flex-col items-center justify-center gap-6 text-[15px] font-medium min-h-[91vh] absolute bg-[#1F2937] text-white  right-0 h-screen w-[70%] mt-4  ">
+              <Link
+                href="/"
+                className="hover:text-[#20B15A] transition ease-in-out delay-150 -mt-72"
+              >
+                Home
+              </Link>
+              <Link
+                href="/team"
+                className="hover:text-[#20B15A] transition ease-in-out delay-150"
+              >
+                Team
+              </Link>
+              <Link
+                href="/services"
+                className="hover:text-[#20B15A] transition ease-in-out delay-150"
+              >
+                Services
+              </Link>
+              <Link
+                href="/projects"
+                className="hover:text-[#20B15A] transition ease-in-out delay-150"
+              >
+                Projects
+              </Link>
+              <Link
+                href="/testimonials"
+                className="hover:text-[#20B15A] transition ease-in-out delay-150"
+              >
+                Testimonials
+              </Link>
+
+              <div className="border w-full border-[#20B15A] px-3 py-2 rounded-lg hover:bg-[#20B15A] hover:text-white transition ease-in-out delay-150 cursor-pointer">
+                <Link href="/">Login</Link>
+              </div>
+              <div className="bg-[#20B15A]  w-full text-white px-3 py-2 rounded-lg cursor-pointer">
+                <Link href="/">Register</Link>
+              </div>
+            </div>
+          )}
+        </nav>
+      </div>
     </div>
   );
 };

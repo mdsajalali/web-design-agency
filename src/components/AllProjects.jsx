@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const AllProjects = () => {
   return (
-    <div className="max-w-[1440px] mx-auto p-4 px-5 md:px-20">
+    <div className="max-w-[1440px]  mx-auto p-4 px-5 md:px-20">
       <div className="mt-5">
         <h2 className="text-[#20B15A] uppercase font-medium">All Project</h2>
         <h1 className="font-bold my-2 text-2xl">
@@ -38,7 +38,7 @@ const AllProjects = () => {
           >
             Lorem ipsum dolor sit consectutar
           </h1>
-        </div> 
+        </div>
         <div className="shadow-lg p-5 rounded-lg hover:-translate-y-1 transition ease-linear delay-15 cursor-pointer">
           <Image
             src="/images/project-3.png"
@@ -53,7 +53,7 @@ const AllProjects = () => {
             Lorem ipsum dolor sit consectutar
           </h1>
         </div>
-         <div className="shadow-lg p-5 rounded-lg hover:-translate-y-1 transition ease-linear delay-15 cursor-pointer">
+        <div className="shadow-lg p-5 rounded-lg hover:-translate-y-1 transition ease-linear delay-15 cursor-pointer">
           <Image
             src="/images/project-4.png"
             width={300}
@@ -66,7 +66,7 @@ const AllProjects = () => {
           >
             Lorem ipsum dolor sit consectutar
           </h1>
-        </div> 
+        </div>
         <div className="shadow-lg p-5 rounded-lg hover:translate-y-1 transition ease-linear delay-15 cursor-pointer">
           <Image
             src="/images/project-5.png"
@@ -77,7 +77,7 @@ const AllProjects = () => {
           <h1 className="  text-center mt-3 mb-1">
             Lorem ipsum dolor sit consectutar
           </h1>
-        </div> 
+        </div>
         <div className="shadow-lg p-5 rounded-lg hover:translate-y-1 transition ease-linear delay-15 cursor-pointer">
           <Image
             src="/images/project-6.png"

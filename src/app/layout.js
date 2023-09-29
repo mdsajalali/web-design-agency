@@ -21,9 +21,9 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
     <Navbar />
       {children}
-      {/* <ProgressBar /> */}
        <Subscribe />
       <Footer />
+      <ProgressBar />
       </body>
     </html>
   );
