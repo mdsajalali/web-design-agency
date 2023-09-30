@@ -6,14 +6,14 @@ const Hero = () => {
     <div className="max-w-[1440px]  mx-auto p-4 px-5 md:px-20">
       <div className="grid grid-cols-1 md:grid-cols-2 place-items-center gap-10  min-h-[75vh] mt-20">
         <div className="max-w-2xl lg:-ml-[155px]  md-ml-0">
-          <h1 className="text-black text-5xl font-bold mb-5">
+          <h1 className="text-black text-3xl md:text-5xl font-bold mb-5">
             Increase Your <br /> Customers Loyalty <br /> and Satisfaction
           </h1>
           <p className="font-semibold mb-5">
             We help businesses like yours earn more customers, <br /> standout
             from competitors, make more money
           </p>
-          <div className="bg-[#20B15A] hover:bg-[#F46C2C] hover:-translate-y-1 inline-block text-white px-4 py-3 rounded-lg cursor-pointer hover:translate-x-1 transition-all">
+          <div className="bg-[#20B15A] hover:bg-[#F46C2C]   inline-block text-white px-4 py-3 rounded-lg cursor-pointer  transition-all">
             <Link href="/">Get Started</Link>
           </div>
         </div>
