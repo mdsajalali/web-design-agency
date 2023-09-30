@@ -5,7 +5,7 @@ import NextTopLoader from "nextjs-toploader";
 
 const ProgressBar = () => {
   return (
-    <div>
+    <>
       <NextTopLoader
         color="#20B15A"
         initialPosition={0.08}
@@ -17,7 +17,7 @@ const ProgressBar = () => {
         speed={200}
         shadow="0 0 10px #20B15A,0 0 5px #20B15A"
       />
-    </div>
+    </>
   );
 };
 

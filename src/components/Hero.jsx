@@ -21,7 +21,7 @@ const Hero = () => {
           <div className="grid grid-cols-6 gap-5   ">
             <div className="col-span-4 w-full h-full">
               <Image
-                className="h-[267px]"
+                className="h-[200px] md:h-[267px] "
                 src="/images/rectangle-01.png"
                 width={400}
                 height={400}
@@ -30,7 +30,7 @@ const Hero = () => {
             </div>
             <div className="col-span-2">
               <Image
-                className="w-full h-[267px]"
+                className="w-full h-[200px] md:h-[267px]"
                 src="/images/rectangle-02.png"
                 width={500}
                 height={200}
