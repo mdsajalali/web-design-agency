@@ -20,27 +20,27 @@ const TeamMember = () => {
             height={300}
             alt="Picture of the author"
           />
-          <div className="flex items-center justify-center gap-3 cursor-pointer -mt-14">
-            <Image
+          <div className="flex items-center justify-center gap-4   bg-[#D7F5DC] p-2">
+            <Image className="cursor-pointer"
               src="/images/fb.png"
-              width={20}
-              height={20}
+              width={15}
+              height={15}
               alt="Picture of the author"
             />
-            <Image
+            <Image className="cursor-pointer"
               src="/images/twitter.png"
-              width={30}
-              height={30}
+              width={25}
+              height={25}
               alt="Picture of the author"
             />
-            <Image
+            <Image className="cursor-pointer"
               src="/images/instagram.png"
-              width={30}
-              height={30}
+              width={25}
+              height={25}
               alt="Picture of the author"
             />
           </div>
-          <h1 className="mt-10 text-center text-2xl font-semibold mb-5">
+          <h1 className=" text-center text-2xl font-semibold my-3">
             Devon Lane
           </h1>
         </div>
@@ -51,27 +51,27 @@ const TeamMember = () => {
             height={300}
             alt="Picture of the author"
           />
-          <div className="flex items-center justify-center gap-3 cursor-pointer -mt-14">
-            <Image
+          <div className="flex items-center justify-center gap-4 c  bg-[#D7F5DC] p-2">
+            <Image className="cursor-pointer"
               src="/images/fb.png"
-              width={20}
-              height={20}
+              width={15}
+              height={15}
               alt="Picture of the author"
             />
-            <Image
+            <Image className="cursor-pointer"
               src="/images/twitter.png"
-              width={30}
-              height={30}
+              width={25}
+              height={25}
               alt="Picture of the author"
             />
-            <Image
+            <Image className="cursor-pointer"
               src="/images/instagram.png"
-              width={30}
-              height={30}
+              width={25}
+              height={25}
               alt="Picture of the author"
             />
           </div>
-          <h1 className="mt-10 text-center text-2xl font-semibold mb-5">
+          <h1 className="  text-center text-2xl font-semibold my-3">
             Danny Bailey
           </h1>
         </div>
@@ -82,27 +82,27 @@ const TeamMember = () => {
             height={300}
             alt="Picture of the author"
           />
-          <div className="flex items-center justify-center gap-3 cursor-pointer -mt-14">
-            <Image
+          <div className="flex items-center justify-center gap-4    bg-[#D7F5DC] p-2">
+            <Image className="cursor-pointer"
               src="/images/fb.png"
-              width={20}
-              height={20}
+              width={15}
+              height={15}
               alt="Picture of the author"
             />
-            <Image
+            <Image className="cursor-pointer"
               src="/images/twitter.png"
-              width={30}
-              height={30}
+              width={25}
+              height={25}
               alt="Picture of the author"
             />
-            <Image
+            <Image className="cursor-pointer"
               src="/images/instagram.png"
-              width={30}
-              height={30}
+              width={25}
+              height={25}
               alt="Picture of the author"
             />
           </div>
-          <h1 className="mt-10 text-center text-2xl font-semibold mb-5">
+          <h1 className="  text-center text-2xl font-semibold my-3">
             Alex Lov
           </h1>
         </div>
