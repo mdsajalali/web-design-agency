@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 const Footer = () => {
+     const currentYear = new Date().getFullYear();
   return (
     <div className="bg-[#000] text-white min-h-[40vh]">
       <div className="max-w-[1440px] mx-auto p-4 px-5 md:px-20">
@@ -84,7 +85,7 @@ const Footer = () => {
           </div>
         </div>
         <footer>
-          <p className="text-[14px] mt-5">Copyright Design Agency 2023</p>
+          <p className="text-[14px] mt-5">Copyright Design Agency {currentYear}</p>
         </footer>
       </div>
     </div>
