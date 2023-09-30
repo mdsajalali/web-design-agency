@@ -9,14 +9,14 @@ const Subscribe = () => {
         <p className="text-[#8B8B8B] mb-5 text-[14px]">
           Please drop your email below to get daily update about what we do
         </p>
-        <div className="relative  ">
+        <div class="flex items-center  w-[350px] md:w-[500px] mx-auto ">
           <input
-            className="border border-black px-5 py-3 outline-none w-[300px] md:w-[500px] rounded-lg"
             type="text"
-            placeholder="Enter Your Email Address"
+            placeholder="Email Address..."
+            class="border border-gray-300 px-4 py-2 rounded-l focus:outline-none w-full"
           />
-          <button className="bg-[#F55F1D] hover:bg-[#20B15A] px-5 py-2 rounded-lg text-white absolute  right-2  top-16 md:top-1 mr-7 md:mr-0   transition-all">
-            Subscribe
+          <button class="bg-[#20B15A] text-white px-4 py-2 rounded-r hover:bg-[#F55F1D] focus:outline-none">
+            Search
           </button>
         </div>
       </div>
