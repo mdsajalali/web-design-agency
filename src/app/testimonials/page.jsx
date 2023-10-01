@@ -1,6 +1,12 @@
 import CommonHero from "@/components/CommonHero";
 import TestimonialList from "@/components/TestimonialList";
 
+
+export const metadata = {
+  title: "Digital-Agency | Testimonials",
+};
+
+
 const page = () => {
   return (
     <div>

@@ -1,6 +1,10 @@
 import AllProjects from "@/components/AllProjects";
 import CommonHero from "@/components/CommonHero";
 
+export const metadata = {
+  title: "Digital-Agency | Projects",
+};
+
 const page = () => {
   return (
     <div>
