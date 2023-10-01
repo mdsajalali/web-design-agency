@@ -93,52 +93,60 @@ const Navbar = () => {
             onClick={toggleNavbar}
           >
             {isClick ? (
-              <AiOutlineClose
-                size={20}
-                className="z-[9999] text-white cursor-pointer"
-              />
+              <AiOutlineClose size={20} className="z-[9999]   cursor-pointer" />
             ) : (
               <AiOutlineMenu size={20} className="z-[9999] cursor-pointer" />
             )}
           </div>
 
           {isClick && (
-            <div className="flex flex-col items-center justify-center gap-6 text-[15px] font-medium min-h-[91vh] absolute bg-[#1F2937] text-white  right-0 h-screen w-[70%] -mt-[42px]  ">
+            <div className="flex flex-col items-start pl-5 justify-center gap-7 text-[15px] font-medium min-h-[91vh] absolute bg-[#fff] text-black  right-0 h-screen w-[70%] -mt-[42px]  ">
               <Link
                 href="/"
-                className="hover:text-[#20B15A] transition ease-in-out delay-150 -mt-96" onClick={()=> setIsClick(!isClick)}
+                className="hover:text-[#20B15A] transition ease-in-out delay-150 -mt-56"
+                onClick={() => setIsClick(!isClick)}
               >
                 Home
               </Link>
               <Link
                 href="/team"
-                className="hover:text-[#20B15A] transition ease-in-out delay-150" onClick={()=> setIsClick(!isClick)}
+                className="hover:text-[#20B15A] transition ease-in-out delay-150"
+                onClick={() => setIsClick(!isClick)}
               >
                 Team
               </Link>
               <Link
                 href="/services"
-                className="hover:text-[#20B15A] transition ease-in-out delay-150" onClick={()=> setIsClick(!isClick)}
+                className="hover:text-[#20B15A] transition ease-in-out delay-150"
+                onClick={() => setIsClick(!isClick)}
               >
                 Services
               </Link>
               <Link
                 href="/projects"
-                className="hover:text-[#20B15A] transition ease-in-out delay-150" onClick={()=> setIsClick(!isClick)}
+                className="hover:text-[#20B15A] transition ease-in-out delay-150"
+                onClick={() => setIsClick(!isClick)}
               >
                 Projects
               </Link>
               <Link
                 href="/testimonials"
-                className="hover:text-[#20B15A] transition ease-in-out delay-150" onClick={()=> setIsClick(!isClick)}
+                className="hover:text-[#20B15A] transition ease-in-out delay-150"
+                onClick={() => setIsClick(!isClick)}
               >
                 Testimonials
               </Link>
 
-              <div className="border w-[90%] border-[#20B15A] px-3 py-2 rounded-lg hover:bg-[#20B15A] hover:text-white transition ease-in-out delay-150 cursor-pointer" onClick={()=> setIsClick(!isClick)}>
+              <div
+                className="border w-[90%] border-[#20B15A] px-3 py-2 rounded-lg hover:bg-[#20B15A] hover:text-white transition ease-in-out delay-150 cursor-pointer"
+                onClick={() => setIsClick(!isClick)}
+              >
                 <Link href="/">Login</Link>
               </div>
-              <div className="bg-[#20B15A]  w-[90%] text-white px-3 py-2 rounded-lg cursor-pointer" onClick={()=> setIsClick(!isClick)}>
+              <div
+                className="bg-[#20B15A]  w-[90%] text-white px-3 py-2 rounded-lg cursor-pointer"
+                onClick={() => setIsClick(!isClick)}
+              >
                 <Link href="/">Register</Link>
               </div>
             </div>

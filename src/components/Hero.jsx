@@ -6,7 +6,7 @@ const Hero = () => {
     <div className="max-w-[1440px]  mx-auto p-4 px-5 md:px-20">
       <div className="grid grid-cols-1 md:grid-cols-2 place-items-center gap-10  min-h-[75vh] mt-20">
         <div className="max-w-2xl lg:-ml-[155px]  md-ml-0">
-          <h1 className="text-black text-3xl md:text-5xl font-bold mb-5">
+          <h1 className="text-black text-3xl md:text-5xl font-bold font-serif  mb-5">
             Increase Your <br /> Customers Loyalty <br /> and Satisfaction
           </h1>
           <p className="font-semibold mb-5">
@@ -30,14 +30,14 @@ const Hero = () => {
             </div>
             <div className="col-span-2">
               <Image
-                className="w-full h-[200px] md:h-[267px]"
+                className="w-full object-cover h-[200px] md:h-[267px] rounded-lg"
                 src="/images/rectangle-02.png"
                 width={500}
                 height={200}
                 alt="Picture of the author"
               />
             </div>
-            <div className="col-span-2">
+            <div className="col-span-3">
               <Image
                 className="  h-[165px]"
                 src="/images/rectangle-03.png"
@@ -46,7 +46,7 @@ const Hero = () => {
                 alt="Picture of the author"
               />
             </div>
-            <div className="col-span-4">
+            <div className="col-span-3">
               <Image
                 className="  h-[165px]"
                 src="/images/rectangle-04.png"
