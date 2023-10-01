@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const RandomURL = () => {
   return (
     <div className=" flex flex-col items-center justify-center h-screen">
@@ -8,7 +10,7 @@ const RandomURL = () => {
         oops! - <span className="font-bold"> </span> Page Not Found
       </h2>
       <button className=" mt-5 text-[20px] hover:underline   bg-[#20B15A] text-white px-3 py-2 rounded-lg cursor-pointer">
-        GO TO HOME PAGE
+        <Link href="/">GO TO HOME PAGE</Link>
       </button>
     </div>
   );
