@@ -3,7 +3,7 @@ import CommonHero from "@/components/CommonHero";
 
 
 export const metadata = {
-  title: "Digital-Agency | Services",
+  title: "Design-Agency | Services",
 };
 const page = () => {
   return (

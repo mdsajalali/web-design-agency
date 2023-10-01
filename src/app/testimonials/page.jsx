@@ -3,7 +3,7 @@ import TestimonialList from "@/components/TestimonialList";
 
 
 export const metadata = {
-  title: "Digital-Agency | Testimonials",
+  title: "Design-Agency | Testimonials",
 };
 
 

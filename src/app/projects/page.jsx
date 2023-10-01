@@ -2,7 +2,7 @@ import AllProjects from "@/components/AllProjects";
 import CommonHero from "@/components/CommonHero";
 
 export const metadata = {
-  title: "Digital-Agency | Projects",
+  title: "Design-Agency | Projects",
 };
 
 const page = () => {
