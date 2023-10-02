@@ -103,7 +103,7 @@ const Navbar = () => {
             <div className="flex flex-col items-start pl-5 justify-center gap-7 text-[15px] font-medium min-h-[91vh] absolute bg-[#fff] text-black  right-0 h-screen w-[70%] -mt-[42px]  ">
               <Link
                 href="/"
-                className="hover:text-[#20B15A] transition ease-in-out delay-150 -mt-56"
+                className="hover:text-[#20B15A] transition ease-in-out delay-150 -mt-96"
                 onClick={() => setIsClick(!isClick)}
               >
                 Home
