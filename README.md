@@ -8,5 +8,6 @@
 
 - [x] HTML
 - [x] TAILWINDCSS
+- [x] NEXT.JS
 - [x] GOOGLE FONTS [Poppins]
 - [x] ICON [React-Icons]
