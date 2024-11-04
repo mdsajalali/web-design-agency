@@ -2,7 +2,7 @@
 
 > Responsive Multipage website
 
-#### Live Link: [Web-Design-Agency](https://webdesign-agency.vercel.app/)
+#### Live Link: [Web-Design-Agency](https://webdesign-agency.netlify.app/)
 
 ## Used Technology
 
